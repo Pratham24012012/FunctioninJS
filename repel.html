@@ -1,0 +1,36 @@
+<html>
+
+<body>
+    <p id="i1"></p>
+    <p id="i2"></p>
+    <p id="i3"></p>
+    <p id="i4"></p>
+    <script>
+        function f1(x, y) {
+            z = x + y;
+            return z;
+        }
+        function f2(x, y) {
+            z = x - y;
+            return z;
+        }
+        function f3(x, y) {
+            z = x * y;
+            return z;
+        }
+        function f4(x, y) {
+            z = x / y;
+            return z;
+        }
+        ans=f1(7,6);
+        document.getElementById("i1").innerHTML = ans;
+        ans = f2(17, 4);
+        document.getElementById("i2").innerHTML = ans;
+        ans = f3(8, 5);
+        document.getElementById("i3").innerHTML = ans;
+        ans = f4(10, 3);
+        document.getElementById("i4").innerHTML = ans;
+    </Script>
+</body>
+
+</html>
